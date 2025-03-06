@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Card, CardContent, Grid } from "@mui/material";
 import { getUserInfo } from "../../components/auth/RequireAuth";
 import Layout from "../../layout/Layout";
+import Dashboard from "../../components/Dashboard/Dashboard";
 
 const Home = () => {
   const user = getUserInfo();
@@ -19,7 +20,8 @@ const Home = () => {
                     backgroundColor: "grey.100",
                     p: 0,
                   }}
-                >                 
+                >   
+                <Dashboard/>           
                 </Box>
               </CardContent>
             </Card>

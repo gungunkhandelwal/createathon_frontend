@@ -24,7 +24,7 @@ const Navbar = () => {
   
   // Simplified navigation links for dashboard
   const navLinks = [
-    { title: "Dashboard", path: "/dashboard" },
+    { title: "Challenge Details", path: "/details" },
     { title: "Challenges", path: "/challenges" },
     { title: "Progress", path: "/progress" }
   ];
