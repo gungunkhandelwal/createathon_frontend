@@ -68,7 +68,7 @@ export const router = createBrowserRouter([
     // errorElement: <Error />,
   },
   {
-    path: "/details",
+    path: "/challenges/challenges/:Id/challenge_details/",
     element: (
       <RequireAuth>
         <Layout type="home">
